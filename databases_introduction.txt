@@ -29,8 +29,13 @@ Date, numeric values, and string can be used in a table.
 7. Given this payments table, provide an English description of the following queries and include their results:
 
 Select the dates and amounts from the table.
+2016-05-01, 1500.00
+
 Select the amount where it is over $500.
+1500.00
+
 Select all the columns where the payee is Mega Foods
+'2016-05-15', 'Mega Foods', 124.93,  'Groceries'
 
 8. Given this users table, write SQL queries using the following criteria and include the output:
 
@@ -38,11 +43,16 @@ SELECT email, signup
 FROM users
 WHERE name = 'Deandre Data'
 
+'datad@comcast.net', '2008-01-20'
+
 SELECT userid
 FROM users
 WHERE email = 'aleesia.algorithm@uw.edu'
+
+1
 
 SELECT *
 FROM users
 WHERE userid = 4
 	
+'Brandy Boolean', 'bboolean@nasa.gov', '1999-10-15'
